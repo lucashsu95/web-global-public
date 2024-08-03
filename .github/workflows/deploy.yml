@@ -27,7 +27,6 @@ jobs:
 
       - name: Move files to desired location
         run: |
-          # 將下載的檔案移動到 repoB 中的適當位置
           mkdir ./54
           mv ./54-TaskE-output/* ./54/TaskE
           mv ./54-TaskA-output/* ./54/TaskA
